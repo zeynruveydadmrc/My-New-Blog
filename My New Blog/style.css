@@ -1,0 +1,117 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f1f1;  /* Soft nude background color */
+    color: #5f4b66;  /* Dark muted pinkish tone for text */
+}
+
+/* Welcome message style */
+.welcome-message {
+    background-color: #e2a9b8;  /* Soft pink background for the welcome section */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 2.5rem;  /* Larger font size for emphasis */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Header and navigation styles */
+header {
+    background-color: #d7a7b3;  /* Muted pink background for header */
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;  /* Hover effect with a pop of gold/orange color */
+}
+
+/* Featured Posts Section */
+.featured-posts {
+    background-color: #ffffff;  /* White background for the main content */
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.featured-posts h2 {
+    font-size: 2rem;
+    color: #e2a9b8;  /* Soft pink color for heading */
+}
+
+.featured-posts article {
+    margin-bottom: 20px;
+}
+
+.featured-posts h3 {
+    color: #5f4b66;  /* Dark pink color for article titles */
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.featured-posts a {
+    text-decoration: none;
+    color: #e2a9b8;  /* Soft pink color for links */
+}
+
+.featured-posts a:hover {
+    color: #f39c12;  /* Golden color on hover */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #d7a7b3;  /* Muted pink footer */
+    color: white;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 768px) {
+    /* Stack navigation links vertically on smaller screens */
+    header nav ul {
+        text-align: left;
+    }
+
+    header nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    .featured-posts {
+        padding: 15px;
+    }
+
+    .featured-posts h3 {
+        font-size: 1.3rem;
+    }
+}
